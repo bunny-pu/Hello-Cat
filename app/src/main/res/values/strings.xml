@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Hello Cat!</string>
+    <string name="loading_fail">Failed to load</string>
+    <string name="title_breed">Breed</string>
+    <string name="title_category">Categories</string>
+    <string name="titke_favorities">Favorities</string>
+    <string name="categories_loading_fail">Failed to load categories</string>
+    <string name="category_loading_fail">Failed to load this category</string>
+    <string name="favorites_loading_fail">Failed to load favorites cats</string>
+
+
+</resources>

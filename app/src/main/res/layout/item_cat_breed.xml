@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView
+        android:id="@+id/tv_breed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="null"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:paddingLeft="5dp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:background="#ffffff"
+        android:textSize="18sp"/>
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/layout_cat_detail"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:layout_constraintTop_toBottomOf="@+id/tv_breed"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:padding="3dp"
+        android:background="#FFFFDF">
+        <TextView
+            android:id="@+id/tv_life_span"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            android:text="5-17"
+            android:textSize="14sp"/>
+        <TextView
+            android:id="@+id/tv_temperament"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Affectionate, Social, Intelligent, Playful, Active"
+            app:layout_constraintLeft_toLeftOf="@+id/layout_cat_detail"
+            app:layout_constraintTop_toBottomOf="@+id/tv_life_span"
+            android:layout_marginTop="2dp"
+            android:textSize="14sp"/>
+        <TextView
+            android:id="@+id/tv_describe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="The Abyysydinn is she squ sufc shbc sdfs 多喝水的， 深色才四级考试课上面卡德罗夫课程即将上市；"
+            app:layout_constraintLeft_toLeftOf="@+id/layout_cat_detail"
+            app:layout_constraintTop_toBottomOf="@+id/tv_temperament"
+            android:layout_marginTop="2dp"
+            android:textSize="14sp"/>
+        <TextView
+            android:id="@+id/tv_go_wiki"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            android:text="More"
+            android:textColor="#0066cc"
+            android:textStyle="bold"
+            android:textSize="14sp"/>
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>
