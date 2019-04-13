@@ -11,6 +11,9 @@ import io.reactivex.disposables.Disposable;
 import io.reactivex.functions.Consumer;
 import io.reactivex.schedulers.Schedulers;
 
+/**
+ * @author gegeding
+ */
 public class CatBreedBiz implements ICatBreedBiz {
     @Override
     public Disposable searchForBreed(DataFeedbackListener dataFeedbackListener) {
