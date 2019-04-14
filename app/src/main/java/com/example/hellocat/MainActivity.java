@@ -8,7 +8,7 @@ import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 
-import com.example.hellocat.mvp.CatBreedMVPFragment;
+import com.example.hellocat.mvvm.MCatFavoritesFragment;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -44,7 +44,8 @@ public class MainActivity extends AppCompatActivity {
                     case 1:
                         return new CatCategoriesFragment();
                     case 2:
-                        return new CatFavoritesFragment();
+//                        return new CatFavoritesFragment();
+                        return new MCatFavoritesFragment();
 
                     default:
                         return new CatBreedFragment();
